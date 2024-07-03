@@ -103,6 +103,19 @@ After cloning the project, follow these steps to set up your environment:
     docker compose down
     docker compose up -d
     ```
+    ## Accessing the Application and phpMyAdmin
+
+After starting your Docker containers, you can access your Laravel application and phpMyAdmin through the following URLs:
+
+- **Laravel Application:** [http://localhost:8081](http://localhost:8081)
+- **phpMyAdmin:** [http://localhost:8082](http://localhost:8082)
+
+Make sure your Docker containers are running by executing:
+
+```sh
+docker compose up
+ ```
+
 
 ## Docker Commands
 
@@ -146,3 +159,4 @@ After cloning the project, follow these steps to set up your environment:
     php artisan view:clear
     exit
     ```
+Happy Coding!!
